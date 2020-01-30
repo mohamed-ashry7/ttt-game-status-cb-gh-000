@@ -35,3 +35,9 @@ def full?(board)
   end
   state==" "?false :true
 end
+
+
+def draw?(board )
+  full?(board) && !won?(board)
+
+end

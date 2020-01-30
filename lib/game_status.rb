@@ -30,8 +30,8 @@ end
 
 def full?(board)
 
-  board.find do |cell|
+  state = board.find do |cell|
     cell ==" "
   end
-
+  state==" "?false :true
 end

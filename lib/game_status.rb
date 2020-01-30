@@ -48,6 +48,6 @@ end
 
 def winner(board)
 
-  winner_state = won? board 
+  winner_state = won? board
   winner_state ? board[winner_state[0]] : false 
 end
